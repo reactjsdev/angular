@@ -1,0 +1,23 @@
+		a[ ng-click ] {
+			cursor: pointer ;
+			text-decoration: underline ;
+		}
+
+		.invitation {
+			color: #aaa;
+			font-style: italic ;
+		}
+
+		h2, ul, li, div.invitation, a {
+			
+		}
+
+		h2 {
+			font-family: 'Open Sans';
+			font-weight: normal;
+		}
+
+		.code-main {
+			width: 50%;
+			margin: 0 auto;
+		}

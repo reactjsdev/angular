@@ -1,0 +1,4245 @@
+<?xml version='1.0' encoding='ISO-8859-1' ?>
+<FPProductsResponse>
+    <Family id="CANUSCOR">
+        <Pass id="RAP">
+            <Desc>Rapidair Pass</Desc>
+        </Pass>
+        <Pass id="WT">
+            <Desc>Western Triangle Pass</Desc>
+        </Pass>
+        <Pass id="CANE">
+            <Desc>Canada East Pass</Desc>
+        </Pass>
+        <Pass id="CANW">
+            <Desc>Canada West Pass</Desc>
+        </Pass>
+        <Pass id="TCAN">
+            <Desc>Trans Canada Pass</Desc>
+        </Pass>
+        <Pass id="CANC2C">
+            <Desc>Canada Coast to Coast Pass</Desc>
+        </Pass>
+        <Pass id="USC">
+            <Desc>US Commuter Pass</Desc>
+        </Pass>
+        <Pass id="USE">
+            <Desc>US East Pass</Desc>
+        </Pass>
+        <Pass id="USW">
+            <Desc>US West Pass</Desc>
+        </Pass>
+        <Pass id="TUSE">
+            <Desc>Transcontinental US East Pass</Desc>
+        </Pass>
+        <Pass id="TUSW">
+            <Desc>Transcontinental US West Pass</Desc>
+        </Pass>
+        <Pass id="TC2C">
+            <Desc>Transborder Coast to Coast Pass</Desc>
+        </Pass>
+    </Family>
+    <Family id="COMMSP">
+	    <Pass id="YYCYEG">
+	        <Desc>Calgary-Edmonton Commuter</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="TGP">
+	                    <Id>298PC0000110</Id>
+	                    <Price>1796.70</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>298LC0000110</Id>
+	                    <Price>3333.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU3">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 3 Months</Desc>
+	                <Fare id="TGP">
+	                    <Id>298PC000029999</Id>
+	                    <Price>1562.79</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>298LC000029999</Id>
+	                    <Price>2899.58</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU6">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 6 Months</Desc>
+	                <Fare id="TGP">
+	                    <Id>298PC000039999</Id>
+	                    <Price>1484.82</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>298LC000039999</Id>
+	                    <Price>2754.94</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="NYCOMM1P">
+	        <Desc>New York Commuter</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>4 Flight Credits</Desc>
+	                <Fare id="TG">
+	                    <Id>220TC000034</Id>
+	                    <Price>664.44</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC1">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="EXEC">
+	                    <Id>220EC0000110</Id>
+	                    <Price>7220.70</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>220LC0000110</Id>
+	                    <Price>4655.60</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>220PC0000110</Id>
+	                    <Price>3039.70</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="YTZ">
+	        <Desc>Toronto city airport</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="TG">
+	                    <Id>297TC0000110</Id>
+	                    <Price>1683.70</Price>
+	                </Fare>
+	            </Option>
+	            <Option>
+	                <Desc>16 Flight Credits</Desc>
+	                <Fare id="TGP">
+	                    <Id>297PC0000116</Id>
+	                    <Price>4140.32</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>297LC0000116</Id>
+	                    <Price>5405.92</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="HALIFAX">
+	        <Desc>Halifax Commuter</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="TGP">
+	                    <Id>483PC0000110</Id>
+	                    <Price>2836.30</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="WC">
+	        <Desc>Western Commuter</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="EXEC">
+	                    <Id>202ECF000110</Id>
+	                    <Price>7006.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>NAZONE11TP10</Id>
+	                    <Price>2847.60</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>C10ZONE1110</Id>
+	                    <Price>4520.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU3">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 3 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>202EC000019999</Id>
+	                    <Price>5344.90</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>202PC000019999</Id>
+	                    <Price>2553.80</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>202LC000019999</Id>
+	                    <Price>4054.44</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU6">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 6 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>202EC000029999</Id>
+	                    <Price>5078.22</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>202PC000029999</Id>
+	                    <Price>2426.11</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>202LC000029999</Id>
+	                    <Price>3851.04</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="BCC">
+	        <Desc>British Columbia Commuter</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="TGP">
+	                    <Id>271PC0000110</Id>
+	                    <Price>2757.20</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>271LC0000110</Id>
+	                    <Price>4079.30</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU3">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 3 Months</Desc>
+	                <Fare id="TGP">
+	                    <Id>271PC000029999</Id>
+	                    <Price>2653.24</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>271LC000029999</Id>
+	                    <Price>3501.87</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU6">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 6 Months</Desc>
+	                <Fare id="TGP">
+	                    <Id>271PC000039999</Id>
+	                    <Price>2521.03</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>271LC000039999</Id>
+	                    <Price>3326.72</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="RAP">
+	        <Desc>Rapidair</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="EXEC">
+	                    <Id>201ECF000110</Id>
+	                    <Price>5582.20</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>RAPFTP10</Id>
+	                    <Price>2644.20</Price>
+	                </Fare>
+	                <Fare id="TG">
+	                    <Id>201TC0000110</Id>
+	                    <Price>1638.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>RAPF10</Id>
+	                    <Price>3491.70</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU3">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 3 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>201EC000019999</Id>
+	                    <Price>5244.33</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>201PC000019999</Id>
+	                    <Price>2462.27</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>201LC000019999</Id>
+	                    <Price>3560.63</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU6">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 6 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>201EC000029999</Id>
+	                    <Price>4982.17</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>201PC000029999</Id>
+	                    <Price>2339.10</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>201LC000029999</Id>
+	                    <Price>3383.22</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="USC">
+	        <Desc>US Commuter</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="EXEC">
+	                    <Id>213ECF000110</Id>
+	                    <Price>9322.50</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>NAZONE5TP10</Id>
+	                    <Price>3898.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>C10ZONE5</Id>
+	                    <Price>6011.60</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU3">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 3 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>213EC000019999</Id>
+	                    <Price>6670.39</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>213PC000019999</Id>
+	                    <Price>2826.13</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>213LC000019999</Id>
+	                    <Price>4139.19</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU6">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 6 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>213EC000029999</Id>
+	                    <Price>6337.04</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>213PC000029999</Id>
+	                    <Price>2684.88</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>213LC000029999</Id>
+	                    <Price>3932.40</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="NFLD">
+	        <Desc>Newfoundland and Labrador</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="TGP">
+	                    <Id>284PC0000110</Id>
+	                    <Price>3943.70</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>284LC0000110</Id>
+	                    <Price>5085.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	</Family>
+	<Family id="COMMMP">
+	    <Pass id="NYCOMM2P">
+	        <Desc>New York Commuter</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>8 Flight Credits</Desc>
+	                <Fare id="TG">
+	                    <Id>220TC000048</Id>
+	                    <Price>1328.88</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	</Family>
+	<Family id="COMMSME">
+	    <Pass id="NYCOMM">
+	        <Desc>New York Commuter</Desc>
+	        <Group id="OC30">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 employees</Desc>
+	                <Fare id="TGP">
+	                    <Id>320PC0000130</Id>
+	                    <Price>9119.10</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>320LC0000130</Id>
+	                    <Price>13966.80</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC100">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight credits for  25 employees</Desc>
+	                <Fare id="TGP">
+	                    <Id>320PC00002100</Id>
+	                    <Price>29832.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>320LC00002100</Id>
+	                    <Price>45652.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC100QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight credits for  25 employees with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>320PC00003100</Id>
+	                    <Price>7458.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>320LC00003100</Id>
+	                    <Price>11413.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC200">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight credits for  50 employees</Desc>
+	                <Fare id="TGP">
+	                    <Id>320PC00004200</Id>
+	                    <Price>59664.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>320LC00004200</Id>
+	                    <Price>91304.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight credits for  50 employees with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>320PC00005200</Id>
+	                    <Price>14916.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>320LC00005200</Id>
+	                    <Price>22826.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="YYCYEG">
+	        <Desc>Calgary-Edmonton Commuter</Desc>
+	        <Group id="OC30">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>398PC0000130</Id>
+	                    <Price>5390.10</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>398LC0000130</Id>
+	                    <Price>10000.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC100">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight credits for  25 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>398PC00002100</Id>
+	                    <Price>17628.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>398LC00002100</Id>
+	                    <Price>32657.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC100QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight credits for  25 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>398PC00003100</Id>
+	                    <Price>4407.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>398LC00003100</Id>
+	                    <Price>8164.25</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC200">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight credits for  50 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>398PC00004200</Id>
+	                    <Price>35256.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>398LC00004200</Id>
+	                    <Price>65314.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight credits for  50 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>398PC00005200</Id>
+	                    <Price>8814.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>398LC00005200</Id>
+	                    <Price>16328.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="HALIFAX">
+	        <Desc>Halifax Commuter</Desc>
+	        <Group id="OC30">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>483PC0000230</Id>
+	                    <Price>8508.90</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC100">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight credits for  25 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>483PC00003100</Id>
+	                    <Price>27798.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC100QP">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight credits for  25 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>483PC00004100</Id>
+	                    <Price>6949.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC200">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight credits for  50 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>483PC00005200</Id>
+	                    <Price>55596.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC200QP">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight credits for  50 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>483PC00006200</Id>
+	                    <Price>13899.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="YTZ">
+	        <Desc>Toronto city airport</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>397PC0000130</Id>
+	                    <Price>7763.10</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>397LC0000130</Id>
+	                    <Price>10136.10</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="WC">
+	        <Desc>Western Commuter</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>BIZZONE11T30</Id>
+	                    <Price>8542.80</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>BIZZONE11L30</Id>
+	                    <Price>13560.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC100">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>FPBZNE11TF100</Id>
+	                    <Price>27911.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>FPBZNE11LF100</Id>
+	                    <Price>44296.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="QC">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>302PCQ0001100</Id>
+	                    <Price>6977.75</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>302LCQ0001100</Id>
+	                    <Price>11074.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>302PC00001200</Id>
+	                    <Price>55822.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>302LC00001200</Id>
+	                    <Price>88592.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>302PC00002200</Id>
+	                    <Price>13955.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>302LC00002200</Id>
+	                    <Price>22148.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="BCC">
+	        <Desc>British Columbia Commuter</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>371PC0000130</Id>
+	                    <Price>8271.60</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>371LC0000130</Id>
+	                    <Price>12237.90</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU100">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>371PC00002100</Id>
+	                    <Price>27007.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>371LC00002100</Id>
+	                    <Price>40002.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU100QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>371PC00003100</Id>
+	                    <Price>6751.75</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>371LC00003100</Id>
+	                    <Price>10000.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>371PC00004200</Id>
+	                    <Price>54014.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>371LC00004200</Id>
+	                    <Price>80004.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>371PC00005200</Id>
+	                    <Price>13503.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>371LC00005200</Id>
+	                    <Price>20001.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="RAP">
+	        <Desc>Rapidair</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for up to 8 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>BIZZONE9T30</Id>
+	                    <Price>7932.60</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>BIZZONE9L30</Id>
+	                    <Price>10475.10</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC100">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight credits for up to 25 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>FPBZNE10TF100</Id>
+	                    <Price>25877.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>FPBZNE10LF100</Id>
+	                    <Price>34239.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="QC">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight credits for up to 25 travellers - with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>301PCQ0001100</Id>
+	                    <Price>6469.25</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>301LCQ0001100</Id>
+	                    <Price>8559.75</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight credits for up to 50 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>301PC00001200</Id>
+	                    <Price>51754.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>301LC00001200</Id>
+	                    <Price>68478.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight credits for up to 50 travellers - with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>301PC00002200</Id>
+	                    <Price>12938.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>301LC00002200</Id>
+	                    <Price>17119.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="USC">
+	        <Desc>US Commuter</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>BIZZONE5T30</Id>
+	                    <Price>11695.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>BIZZONE5L30</Id>
+	                    <Price>18034.80</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC100">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers</Desc>
+	                <Fare id="LAT">
+	                    <Id>FPBZONE5LF100</Id>
+	                    <Price>58873.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>FPBZONE5TF100</Id>
+	                    <Price>38194.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="QC">
+	            <Period>/quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>313PC00001100</Id>
+	                    <Price>9548.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>313LCQ0001100</Id>
+	                    <Price>14718.25</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>313PC00002200</Id>
+	                    <Price>76388.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>313LC00001200</Id>
+	                    <Price>117746.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>313PC00003200</Id>
+	                    <Price>19097.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>313LC00002200</Id>
+	                    <Price>29436.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="NFLD">
+	        <Desc>Newfoundland and Labrador</Desc>
+	        <Group id="OC30">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>384PC0000130</Id>
+	                    <Price>11831.10</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>384LC0000130</Id>
+	                    <Price>15255.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC100">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>384PC00002100</Id>
+	                    <Price>38646.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>384LC00002100</Id>
+	                    <Price>49833.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="QC100">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>384PC00003100</Id>
+	                    <Price>9661.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>384LC00003100</Id>
+	                    <Price>12458.25</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>384PC00004200</Id>
+	                    <Price>77292.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>384LC00004200</Id>
+	                    <Price>99666.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>384PC00005200</Id>
+	                    <Price>19323.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>384LC00005200</Id>
+	                    <Price>24916.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	</Family>
+	<Family id="REGSP">
+	    <Pass id="WESTREGTG">
+	        <Desc>Western Regional</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="EXEC">
+	                    <Id>283EC0000110</Id>
+	                    <Price>9718.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>283LC0000110</Id>
+	                    <Price>6248.90</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>283TC0000110</Id>
+	                    <Price>4169.70</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU3">
+	            <Period>per month</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 3 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>283EC000029999</Id>
+	                    <Price>7871.58</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>283LC000029999</Id>
+	                    <Price>5079.35</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>283PC000019999</Id>
+	                    <Price>3544.81</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU6">
+	            <Period>per month</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 6 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>283EC000039999</Id>
+	                    <Price>7478.34</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>283LC000039999</Id>
+	                    <Price>4825.10</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>283PC000029999</Id>
+	                    <Price>3367.40</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="HALONE">
+	        <Desc>Halifax</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="EXEC">
+	                    <Id>257EC0000110</Id>
+	                    <Price>6667.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>257LC0000110</Id>
+	                    <Price>4633.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>257PC0000110</Id>
+	                    <Price>3209.20</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU3">
+	            <Period>per month</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 3 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>257EC000029999</Id>
+	                    <Price>5627.40</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>257LC000029999</Id>
+	                    <Price>3739.17</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>257PC000029999</Id>
+	                    <Price>2660.02</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU6">
+	            <Period>per month</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 6 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>257EC000039999</Id>
+	                    <Price>5346.03</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>257LC000039999</Id>
+	                    <Price>3552.72</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>257PC000039999</Id>
+	                    <Price>2526.68</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="QUEONE">
+	        <Desc>Quebec</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="LAT">
+	                    <Id>262LC0000110</Id>
+	                    <Price>5397.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>262PC0000110</Id>
+	                    <Price>4189.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU3">
+	            <Period>per month</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 3 Months</Desc>
+	                <Fare id="LAT">
+	                    <Id>262LC000029999</Id>
+	                    <Price>3780.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>262PC000029999</Id>
+	                    <Price>3000.90</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU6">
+	            <Period>per month</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 6 Months</Desc>
+	                <Fare id="LAT">
+	                    <Id>262LC000039999</Id>
+	                    <Price>3591.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>262PC000039999</Id>
+	                    <Price>2850.75</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="MAR">
+	        <Desc>Maritimes</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="EXEC">
+	                    <Id>258EC0000110</Id>
+	                    <Price>7345.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>258PC0000110</Id>
+	                    <Price>3435.20</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>258LC0000110</Id>
+	                    <Price>4689.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU3">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 3 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>258EC000029999</Id>
+	                    <Price>6763.05</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>258PC000029999</Id>
+	                    <Price>3164.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>258LC000029999</Id>
+	                    <Price>4195.69</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU6">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 6 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>258EC000039999</Id>
+	                    <Price>6425.18</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>258PC000039999</Id>
+	                    <Price>3005.80</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>258LC000039999</Id>
+	                    <Price>3985.51</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="CTL">
+	        <Desc>Central Regional</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="EXEC">
+	                    <Id>263EC0000110</Id>
+	                    <Price>9492.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>263PC0000110</Id>
+	                    <Price>4158.40</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>263LC0000110</Id>
+	                    <Price>6102.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU3">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 3 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>263EC000029999</Id>
+	                    <Price>6924.64</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>263PC000029999</Id>
+	                    <Price>3280.39</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>263LC000029999</Id>
+	                    <Price>4355.02</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU6">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 6 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>263EC000039999</Id>
+	                    <Price>6578.86</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>263PC000039999</Id>
+	                    <Price>3116.54</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>263LC000039999</Id>
+	                    <Price>4136.93</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="ONTONE">
+	        <Desc>Ontario</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="LAT">
+	                    <Id>261LC0000110</Id>
+	                    <Price>4836.40</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>261PC0000110</Id>
+	                    <Price>3390.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU3">
+	            <Period>per month</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 3 Months</Desc>
+	                <Fare id="LAT">
+	                    <Id>261LC000029999</Id>
+	                    <Price>4616.05</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>261PC000029999</Id>
+	                    <Price>2949.30</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU6">
+	            <Period>per month</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 6 Months</Desc>
+	                <Fare id="LAT">
+	                    <Id>261LC000039999</Id>
+	                    <Price>4385.53</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>261PC000039999</Id>
+	                    <Price>2802.40</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="PRA">
+	        <Desc>Prairies Regional</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="EXEC">
+	                    <Id>267EC0000110</Id>
+	                    <Price>9525.90</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>267PC0000110</Id>
+	                    <Price>4847.70</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>267LC0000110</Id>
+	                    <Price>6102.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU3">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 3 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>267EC000029999</Id>
+	                    <Price>7345.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>267PC000029999</Id>
+	                    <Price>3333.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>267LC000029999</Id>
+	                    <Price>4520.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU6">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 6 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>267EC000039999</Id>
+	                    <Price>6977.75</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>267PC000039999</Id>
+	                    <Price>3167.39</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>267LC000039999</Id>
+	                    <Price>4294.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	</Family>
+	<Family id="REGSME">
+	    <Pass id="WESTREGTG">
+	        <Desc>Western Regional</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="LAT">
+	                    <Id>383LC0000130</Id>
+	                    <Price>18746.70</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>383TC0000130</Id>
+	                    <Price>12509.10</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU100">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers</Desc>
+	                <Fare id="LAT">
+	                    <Id>383LC00002100</Id>
+	                    <Price>61246.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>383TC00002100</Id>
+	                    <Price>40906.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU100QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers with quarterly payments</Desc>
+	                <Fare id="LAT">
+	                    <Id>383LC00003100</Id>
+	                    <Price>15311.50</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>383TC00003100</Id>
+	                    <Price>10226.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers</Desc>
+	                <Fare id="LAT">
+	                    <Id>383LC00004200</Id>
+	                    <Price>122492.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>383TC00004200</Id>
+	                    <Price>81812.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers with quarterly payments</Desc>
+	                <Fare id="LAT">
+	                    <Id>383LC00005200</Id>
+	                    <Price>30623.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>383TC00005200</Id>
+	                    <Price>20453.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="HALMP">
+	        <Desc>Halifax</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="LAT">
+	                    <Id>357LC0000130</Id>
+	                    <Price>13899.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>357PC0000130</Id>
+	                    <Price>9627.60</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC25">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers</Desc>
+	                <Fare id="LAT">
+	                    <Id>357LC00002100</Id>
+	                    <Price>45426.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>357PC00002100</Id>
+	                    <Price>31414.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers with quarterly payments</Desc>
+	                <Fare id="LAT">
+	                    <Id>357LC00003100</Id>
+	                    <Price>11356.50</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>357PC00003100</Id>
+	                    <Price>7853.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>357PC00004200</Id>
+	                    <Price>62900.32</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>357LC00004200</Id>
+	                    <Price>90852.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>357PC00005200</Id>
+	                    <Price>15707.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>357LC00005200</Id>
+	                    <Price>22713.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="QUEMP">
+	        <Desc>Quebec</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="LAT">
+	                    <Id>362LC0000130</Id>
+	                    <Price>16191.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>362PC0000130</Id>
+	                    <Price>12568.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC25">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers</Desc>
+	                <Fare id="LAT">
+	                    <Id>362LC00002100</Id>
+	                    <Price>52920.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>362PC00002100</Id>
+	                    <Price>41055.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers with quarterly payments</Desc>
+	                <Fare id="LAT">
+	                    <Id>362LC00003100</Id>
+	                    <Price>13230.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>362PC00003100</Id>
+	                    <Price>10263.75</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>362PC00004200</Id>
+	                    <Price>82110.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>362LC00004200</Id>
+	                    <Price>105840.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>362PC00005200</Id>
+	                    <Price>20527.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>362LC00005200</Id>
+	                    <Price>26460.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="MAR">
+	        <Desc>Maritimes</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>358PC0000130</Id>
+	                    <Price>10305.60</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>358LC0000130</Id>
+	                    <Price>14068.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC100">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>358PC00002100</Id>
+	                    <Price>33674.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>358LC00002100</Id>
+	                    <Price>45991.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>358PC00003100</Id>
+	                    <Price>8418.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>358LC00003100</Id>
+	                    <Price>11497.75</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>358PC00004200</Id>
+	                    <Price>67348.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>358LC00004200</Id>
+	                    <Price>91982.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>358PC00005200</Id>
+	                    <Price>16837.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>358LC00005200</Id>
+	                    <Price>22995.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="CTL">
+	        <Desc>Central Regional</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>363PC0000130</Id>
+	                    <Price>12475.20</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>363LC0000130</Id>
+	                    <Price>18306.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC100">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>363PC00002100</Id>
+	                    <Price>40793.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>363LC00002100</Id>
+	                    <Price>59777.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>363PC00003100</Id>
+	                    <Price>10198.25</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>363LC00003100</Id>
+	                    <Price>14944.25</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>363PC00004200</Id>
+	                    <Price>81586.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>363LC00004200</Id>
+	                    <Price>119554.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>363PC00005200</Id>
+	                    <Price>20396.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>363LC00005200</Id>
+	                    <Price>29888.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="ONTMP">
+	        <Desc>Ontario</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="LAT">
+	                    <Id>361LC0000130</Id>
+	                    <Price>14509.20</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>361PC0000130</Id>
+	                    <Price>10170.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC25">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers</Desc>
+	                <Fare id="LAT">
+	                    <Id>361LC00002100</Id>
+	                    <Price>47347.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>361PC00002100</Id>
+	                    <Price>33222.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers with quarterly payments</Desc>
+	                <Fare id="LAT">
+	                    <Id>361LC00003100</Id>
+	                    <Price>11836.75</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>361PC00003100</Id>
+	                    <Price>8305.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>361PC00004200</Id>
+	                    <Price>66444.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>361LC00004200</Id>
+	                    <Price>94694.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>361PC00005200</Id>
+	                    <Price>16611.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>361LC00005200</Id>
+	                    <Price>24916.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="PRA">
+	        <Desc>Prairies Regional</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>367PC0000130</Id>
+	                    <Price>14543.10</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>367LC0000130</Id>
+	                    <Price>18306.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC100">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>367PC00002100</Id>
+	                    <Price>47460.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>367LC00002100</Id>
+	                    <Price>59777.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>367PC00003100</Id>
+	                    <Price>11865.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>367LC00003100</Id>
+	                    <Price>14944.25</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>367PC00004200</Id>
+	                    <Price>94920.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>367LC00004200</Id>
+	                    <Price>119554.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>367PC00005200</Id>
+	                    <Price>23730.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>367LC00005200</Id>
+	                    <Price>29888.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	</Family>
+	<Family id="INTREGSP">
+	    <Pass id="WESTRANS">
+	        <Desc>Western Transborder</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="EXEC">
+	                    <Id>272EC0000110</Id>
+	                    <Price>8000.40</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>272PC0000110</Id>
+	                    <Price>3977.60</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>272LC0000110</Id>
+	                    <Price>5277.10</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU3">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 3 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>272EC000029999</Id>
+	                    <Price>6836.50</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>272PC000029999</Id>
+	                    <Price>3446.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>272LC000029999</Id>
+	                    <Price>4237.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU6">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 6 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>272EC000039999</Id>
+	                    <Price>6495.24</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>272PC000039999</Id>
+	                    <Price>3274.74</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>272LC000039999</Id>
+	                    <Price>4026.19</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="OIL">
+	        <Desc>Oil Express</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>6 Flight Credits</Desc>
+	                <Fare id="TG">
+	                    <Id>OILPATCH026</Id>
+	                    <Price>3722.22</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC10">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="EXEC">
+	                    <Id>219EC0000110</Id>
+	                    <Price>16385.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>219PC0000110</Id>
+	                    <Price>7684.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>219LC0000110</Id>
+	                    <Price>10791.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU3">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 3 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>219EC000029999</Id>
+	                    <Price>10678.50</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>219PC000029999</Id>
+	                    <Price>5301.96</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>219LC000029999</Id>
+	                    <Price>7446.70</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU6">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 6 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>219EC000039999</Id>
+	                    <Price>10145.14</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>219PC000039999</Id>
+	                    <Price>5036.41</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>219LC000039999</Id>
+	                    <Price>7073.80</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="CENTRANS">
+	        <Desc>Central Transborder</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="EXEC">
+	                    <Id>264EC0000110</Id>
+	                    <Price>10283.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>264PC0000110</Id>
+	                    <Price>5650.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>264LC0000110</Id>
+	                    <Price>7141.60</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU3">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 3 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>264EC000029999</Id>
+	                    <Price>7641.06</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>264PC000029999</Id>
+	                    <Price>3808.10</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>264LC000029999</Id>
+	                    <Price>4915.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU6">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 6 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>264EC000039999</Id>
+	                    <Price>7259.12</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>264PC000039999</Id>
+	                    <Price>3618.26</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>264LC000039999</Id>
+	                    <Price>4670.29</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="EASTRANS">
+	        <Desc>Eastern Transborder</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="EXEC">
+	                    <Id>259EC0000110</Id>
+	                    <Price>10509.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>259PC0000110</Id>
+	                    <Price>5537.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>259LC0000110</Id>
+	                    <Price>7130.30</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU3">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 3 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>259EC000029999</Id>
+	                    <Price>8213.97</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>259PC000029999</Id>
+	                    <Price>4093.99</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>259LC000029999</Id>
+	                    <Price>5161.84</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU6">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 6 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>259EC000039999</Id>
+	                    <Price>7803.78</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>259PC000039999</Id>
+	                    <Price>3888.33</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>259LC000039999</Id>
+	                    <Price>4903.07</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="EWCONE">
+	        <Desc>East West Connector</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="EXEC">
+	                    <Id>265EC0000110</Id>
+	                    <Price>13390.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>265LC0000110</Id>
+	                    <Price>8780.10</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>265PC0000110</Id>
+	                    <Price>4746.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU3">
+	            <Period>per month</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 3 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>265EC000029999</Id>
+	                    <Price>8023.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>265LC000029999</Id>
+	                    <Price>5424.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>265PC000029999</Id>
+	                    <Price>3164.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU6">
+	            <Period>per month</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 6 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>265EC000039999</Id>
+	                    <Price>7621.85</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>265LC000039999</Id>
+	                    <Price>5152.80</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>265PC000039999</Id>
+	                    <Price>3005.80</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="NOWE">
+	        <Desc>Northwestern</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="EXEC">
+	                    <Id>274EC0000110</Id>
+	                    <Price>10158.70</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>274PC0000110</Id>
+	                    <Price>4938.10</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>274LC0000110</Id>
+	                    <Price>6441.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU3">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 3 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>274EC000029999</Id>
+	                    <Price>7016.17</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>274PC000029999</Id>
+	                    <Price>3717.70</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>274LC000029999</Id>
+	                    <Price>4542.60</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU6">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 6 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>274EC000039999</Id>
+	                    <Price>6665.87</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>274PC000039999</Id>
+	                    <Price>3531.25</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>274LC000039999</Id>
+	                    <Price>4315.47</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	</Family>
+	<Family id="INTREGSME">
+	    <Pass id="OIL">
+	        <Desc>Oil Express</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>319PC0000130</Id>
+	                    <Price>23052.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>319LC0000130</Id>
+	                    <Price>32374.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU100">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>319PC00002100</Id>
+	                    <Price>75258.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>319LC00002100</Id>
+	                    <Price>105768.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU100QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>319PC00003100</Id>
+	                    <Price>18814.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>319LC00003100</Id>
+	                    <Price>26442.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>319PC00004200</Id>
+	                    <Price>150516.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>319LC00004200</Id>
+	                    <Price>211536.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>319PC00005200</Id>
+	                    <Price>37629.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>319LC00005200</Id>
+	                    <Price>52884.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="WESTRANS">
+	        <Desc>Western Transborder</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>372PC0000130</Id>
+	                    <Price>11932.80</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>372LC0000130</Id>
+	                    <Price>15831.30</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC100">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>372PC00002100</Id>
+	                    <Price>38985.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>372LC00002100</Id>
+	                    <Price>51754.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>372PC00003100</Id>
+	                    <Price>9746.25</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>372LC00003100</Id>
+	                    <Price>12938.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>372PC00004200</Id>
+	                    <Price>77970.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>372LC00004200</Id>
+	                    <Price>103508.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>372PC00005200</Id>
+	                    <Price>19492.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>372LC00005200</Id>
+	                    <Price>25877.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="CENTRANS">
+	        <Desc>Central Transborder</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>364PC0000130</Id>
+	                    <Price>16950.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>364LC0000130</Id>
+	                    <Price>21424.80</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC100">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>364PC00002100</Id>
+	                    <Price>55370.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>364LC00002100</Id>
+	                    <Price>69947.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>364PC00003100</Id>
+	                    <Price>13842.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>364LC00003100</Id>
+	                    <Price>17486.75</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>364PC00004200</Id>
+	                    <Price>110740.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>364LC00004200</Id>
+	                    <Price>139894.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>364PC00005200</Id>
+	                    <Price>27685.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>364LC00005200</Id>
+	                    <Price>34973.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="EASTRANS">
+	        <Desc>Eastern Transborder</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>359PC0000130</Id>
+	                    <Price>16611.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>359LC0000130</Id>
+	                    <Price>21390.90</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC100">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>359PC00002100</Id>
+	                    <Price>54240.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>359LC00002100</Id>
+	                    <Price>69834.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>359PC00003100</Id>
+	                    <Price>13560.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>359LC00003100</Id>
+	                    <Price>17458.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>359PC00004200</Id>
+	                    <Price>108480.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>359LC00004200</Id>
+	                    <Price>139668.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>359PC00005200</Id>
+	                    <Price>27120.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>359LC00005200</Id>
+	                    <Price>34917.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="EWCMP">
+	        <Desc>East West Connector</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="LAT">
+	                    <Id>365LC0000130</Id>
+	                    <Price>26340.30</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>365PC0000130</Id>
+	                    <Price>14238.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC25">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers</Desc>
+	                <Fare id="LAT">
+	                    <Id>365LC00002100</Id>
+	                    <Price>85993.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>365PC00002100</Id>
+	                    <Price>46556.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers with quarterly payments</Desc>
+	                <Fare id="LAT">
+	                    <Id>365LC00003100</Id>
+	                    <Price>21498.25</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>365PC00003100</Id>
+	                    <Price>11639.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>365PC00004200</Id>
+	                    <Price>93112.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>365LC00004200</Id>
+	                    <Price>171986.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>365PC00005200</Id>
+	                    <Price>23278.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>365LC00005200</Id>
+	                    <Price>42996.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="NOWE">
+	        <Desc>Northwestern</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>374PC0000130</Id>
+	                    <Price>14814.30</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>374LC0000130</Id>
+	                    <Price>19323.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC100">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>374PC00002100</Id>
+	                    <Price>48364.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>374LC00002100</Id>
+	                    <Price>63167.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>374PC00003100</Id>
+	                    <Price>12091.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>374LC00003100</Id>
+	                    <Price>15791.75</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>374PC00004200</Id>
+	                    <Price>96728.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>374LC00004200</Id>
+	                    <Price>126334.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>374PC00005200</Id>
+	                    <Price>24182.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>374LC00005200</Id>
+	                    <Price>31583.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	</Family>
+	<Family id="TCONTSP">
+	    <Pass id="PRACONT">
+	        <Desc>Prairies Continental</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="EXEC">
+	                    <Id>268EC0000410</Id>
+	                    <Price>12746.40</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>268PC0000610</Id>
+	                    <Price>5198.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>268LC0000410</Id>
+	                    <Price>8215.10</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU3">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 3 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>268EC000059999</Id>
+	                    <Price>10243.45</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>268PC000079999</Id>
+	                    <Price>4201.34</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>268LC000059999</Id>
+	                    <Price>6601.46</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU6">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 6 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>268EC000069999</Id>
+	                    <Price>9731.56</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>268PC000089999</Id>
+	                    <Price>3991.16</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>268LC000069999</Id>
+	                    <Price>6271.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="WESTCONT">
+	        <Desc>Western Continental</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="EXEC">
+	                    <Id>273EC0000110</Id>
+	                    <Price>10655.90</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>273PC0000110</Id>
+	                    <Price>4983.30</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>273LC0000110</Id>
+	                    <Price>6949.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU3">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 3 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>273EC000029999</Id>
+	                    <Price>8119.05</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>273PC000029999</Id>
+	                    <Price>3753.86</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>273LC000029999</Id>
+	                    <Price>5238.68</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU6">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 6 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>273EC000039999</Id>
+	                    <Price>7713.38</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>273PC000039999</Id>
+	                    <Price>3566.28</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>273LC000039999</Id>
+	                    <Price>4976.52</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="EASTCONT">
+	        <Desc>Eastern Continental</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="EXEC">
+	                    <Id>260EC0000110</Id>
+	                    <Price>11865.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>260PC0000110</Id>
+	                    <Price>5763.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>260LC0000110</Id>
+	                    <Price>8271.60</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU3">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 3 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>260EC000029999</Id>
+	                    <Price>8475.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>260PC000029999</Id>
+	                    <Price>4011.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>260LC000029999</Id>
+	                    <Price>5593.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU6">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 6 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>260EC000039999</Id>
+	                    <Price>8051.25</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>260PC000039999</Id>
+	                    <Price>3811.49</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>260LC000039999</Id>
+	                    <Price>5314.39</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="TRANSCONT">
+	        <Desc>Transcontinental</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="EXEC">
+	                    <Id>266EC0000110</Id>
+	                    <Price>15085.50</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>266PC0000110</Id>
+	                    <Price>6610.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>266LC0000110</Id>
+	                    <Price>10181.30</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU3">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 3 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>266EC000029999</Id>
+	                    <Price>10396.00</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>266PC000029999</Id>
+	                    <Price>4604.75</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>266LC000029999</Id>
+	                    <Price>6780.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU6">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 6 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>266EC000039999</Id>
+	                    <Price>9876.20</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>266PC000039999</Id>
+	                    <Price>4374.23</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>266LC000039999</Id>
+	                    <Price>6441.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="NA">
+	        <Desc>North America</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>10 Flight Credits</Desc>
+	                <Fare id="EXEC">
+	                    <Id>218ECF000110</Id>
+	                    <Price>17051.70</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>C10ZONE10</Id>
+	                    <Price>11006.20</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>NAZONE8TP10</Id>
+	                    <Price>7910.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU3">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 3 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>218EC000019999</Id>
+	                    <Price>11701.15</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>218PC000019999</Id>
+	                    <Price>5294.05</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>218LC000019999</Id>
+	                    <Price>7549.53</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU6">
+	            <Period>per month</Period>
+	            <Type>UNL</Type>
+	            <Option>
+	                <Desc>Unlimited Travel for 6 Months</Desc>
+	                <Fare id="EXEC">
+	                    <Id>218EC000029999</Id>
+	                    <Price>11115.81</Price>
+	                </Fare>
+	                <Fare id="TGP">
+	                    <Id>218PC000029999</Id>
+	                    <Price>5029.63</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>218LC000029999</Id>
+	                    <Price>7170.98</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	</Family>
+	<Family id="TCONTSME">
+	    <Pass id="PRACONT">
+	        <Desc>Prairies Continental</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>368PC0000630</Id>
+	                    <Price>15594.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>368LC0000630</Id>
+	                    <Price>24645.30</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC100">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>368PC00007100</Id>
+	                    <Price>50963.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>368LC00007100</Id>
+	                    <Price>80456.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>368PC00008100</Id>
+	                    <Price>12740.75</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>368LC00008100</Id>
+	                    <Price>20114.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>368PC00009200</Id>
+	                    <Price>101926.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>368LC00009200</Id>
+	                    <Price>160912.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>368PC00010200</Id>
+	                    <Price>25481.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>368LC00010200</Id>
+	                    <Price>40228.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="WESTCONT">
+	        <Desc>Western Continental</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>373PC0000130</Id>
+	                    <Price>14949.90</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>373LC0000130</Id>
+	                    <Price>20848.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC100">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>373PC00002100</Id>
+	                    <Price>48816.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>373LC00002100</Id>
+	                    <Price>68139.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>373PC00003100</Id>
+	                    <Price>12204.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>373LC00003100</Id>
+	                    <Price>17034.75</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>373PC00004200</Id>
+	                    <Price>97632.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>373LC00004200</Id>
+	                    <Price>136278.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>373PC00005200</Id>
+	                    <Price>24408.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>373LC00005200</Id>
+	                    <Price>34069.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="EASTCONT">
+	        <Desc>Eastern Continental</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>360PC0000130</Id>
+	                    <Price>17289.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>360LC0000130</Id>
+	                    <Price>24814.80</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC100">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>360PC00002100</Id>
+	                    <Price>56500.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>360LC00002100</Id>
+	                    <Price>81021.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>360PC00003100</Id>
+	                    <Price>14125.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>360LC00003100</Id>
+	                    <Price>20255.25</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>360PC00004200</Id>
+	                    <Price>113000.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>360LC00004200</Id>
+	                    <Price>162042.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>360PC00005200</Id>
+	                    <Price>28250.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>360LC00005200</Id>
+	                    <Price>40510.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="TRANSCONT">
+	        <Desc>Transcontinental</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>366PC0000130</Id>
+	                    <Price>19831.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>366LC0000130</Id>
+	                    <Price>30543.90</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC100">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>366PC00002100</Id>
+	                    <Price>64749.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>366LC00002100</Id>
+	                    <Price>99779.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>366PC00003100</Id>
+	                    <Price>16187.25</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>366LC00003100</Id>
+	                    <Price>24944.75</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>366PC00004200</Id>
+	                    <Price>129498.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>366LC00004200</Id>
+	                    <Price>199558.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>366PC00005200</Id>
+	                    <Price>32374.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>366LC00005200</Id>
+	                    <Price>49889.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="NA">
+	        <Desc>North America</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>BIZZONE8T30</Id>
+	                    <Price>23730.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>BIZZONE8L30</Id>
+	                    <Price>33018.60</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC100">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>FPBZONE8TF100</Id>
+	                    <Price>77518.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>FPBZONE8LF100</Id>
+	                    <Price>107915.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="QC">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>100 Flight Credits- up to 25 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>318PC00001100</Id>
+	                    <Price>19379.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>318LC00001100</Id>
+	                    <Price>26978.75</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200">
+	            <Period></Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers</Desc>
+	                <Fare id="TGP">
+	                    <Id>318PC00002200</Id>
+	                    <Price>155036.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>318LC00002200</Id>
+	                    <Price>215830.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="MU200QP">
+	            <Period>per quarter</Period>
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>200 Flight Credits- up to 50 travellers with quarterly payments</Desc>
+	                <Fare id="TGP">
+	                    <Id>318PC00003200</Id>
+	                    <Price>38759.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>318LC00003200</Id>
+	                    <Price>53957.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	</Family>
+	<Family id="SUNSP">
+	    <Pass id="HAWAII">
+	        <Desc>Hawaii</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>6 Flight Credits - From Calgary, Edmonton and Vancouver</Desc>
+	                <Fare id="TGP">
+	                    <Id>280PC000016</Id>
+	                    <Price>2450.70</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>280LC000016</Id>
+	                    <Price>3591.00</Price>
+	                </Fare>
+	                <Fare id="EXECSUN">
+	                    <Id>280EC000016</Id>
+	                    <Price>5027.40</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>6 Flight Credits - From Western Canada</Desc>
+	                <Fare id="TGP">
+	                    <Id>282PC000016</Id>
+	                    <Price>2992.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>282LC000016</Id>
+	                    <Price>3849.30</Price>
+	                </Fare>
+	                <Fare id="EXECSUN">
+	                    <Id>282EC000016</Id>
+	                    <Price>5392.80</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="SOUTHWEST">
+	        <Desc>Southwestern</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>6 Flight Credits - From Calgary, Edmonton and Vancouver</Desc>
+	                <Fare id="TGP">
+	                    <Id>279PC000016</Id>
+	                    <Price>1486.80</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>279LC000016</Id>
+	                    <Price>2192.40</Price>
+	                </Fare>
+	                <Fare id="EXECSUN">
+	                    <Id>279EC000016</Id>
+	                    <Price>2853.90</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>6 Flight Credits - From Western Canada</Desc>
+	                <Fare id="TGP">
+	                    <Id>281PC000016</Id>
+	                    <Price>2066.40</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>281LC000016</Id>
+	                    <Price>2709.00</Price>
+	                </Fare>
+	                <Fare id="EXECSUN">
+	                    <Id>281EC000016</Id>
+	                    <Price>3521.70</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="FLORIDA">
+	        <Desc>Florida</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>6 Flight Credits - From Montreal, Ottawa and Toronto</Desc>
+	                <Fare id="TGP">
+	                    <Id>275PC000016</Id>
+	                    <Price>1921.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>275LC000016</Id>
+	                    <Price>3244.50</Price>
+	                </Fare>
+	                <Fare id="EXEC">
+	                    <Id>275EC000016</Id>
+	                    <Price>4095.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>6 Flight Credits - From Eastern Canada</Desc>
+	                <Fare id="TGP">
+	                    <Id>277PC000016</Id>
+	                    <Price>2513.70</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>277LC000016</Id>
+	                    <Price>4044.60</Price>
+	                </Fare>
+	                <Fare id="EXEC">
+	                    <Id>277EC000016</Id>
+	                    <Price>5355.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>6 Flight Credits - From Calgary, Edmonton and Vancouver</Desc>
+	                <Fare id="TGP">
+	                    <Id>293PC000016</Id>
+	                    <Price>2450.70</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>293LC000016</Id>
+	                    <Price>3906.00</Price>
+	                </Fare>
+	                <Fare id="EXEC">
+	                    <Id>293EC000016</Id>
+	                    <Price>5197.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="FLORIDAP">
+	        <Desc>Florida Plus</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>6 Flight Credits - From Montreal, Ottawa and Toronto</Desc>
+	                <Fare id="TGP">
+	                    <Id>276PC000016</Id>
+	                    <Price>2236.50</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>276LC000016</Id>
+	                    <Price>3912.30</Price>
+	                </Fare>
+	                <Fare id="EXEC">
+	                    <Id>276EC000016</Id>
+	                    <Price>5197.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>6 Flight Credits - From Eastern Canada</Desc>
+	                <Fare id="TGP">
+	                    <Id>278PC000016</Id>
+	                    <Price>2879.10</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>278LC000016</Id>
+	                    <Price>4586.40</Price>
+	                </Fare>
+	                <Fare id="EXEC">
+	                    <Id>278EC000016</Id>
+	                    <Price>5827.50</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>6 Flight Credits - From Calgary, Edmonton and Vancouver</Desc>
+	                <Fare id="TGP">
+	                    <Id>294PC000016</Id>
+	                    <Price>2872.80</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>294LC000016</Id>
+	                    <Price>4958.10</Price>
+	                </Fare>
+	                <Fare id="EXEC">
+	                    <Id>294EC000016</Id>
+	                    <Price>7188.30</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	</Family>
+	<Family id="SUNMP">
+	    <Pass id="SOUTHWEST">
+	        <Desc>Southwestern</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>8 Flight Credits - From Calgary, Edmonton and Vancouver</Desc>
+	                <Fare id="TGP">
+	                    <Id>279PC000028</Id>
+	                    <Price>1982.40</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>279LC000028</Id>
+	                    <Price>2923.20</Price>
+	                </Fare>
+	                <Fare id="EXECSUN">
+	                    <Id>279EC000028</Id>
+	                    <Price>3805.20</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>8 Flight Credits - From Western Canada</Desc>
+	                <Fare id="TGP">
+	                    <Id>281PC000028</Id>
+	                    <Price>2755.20</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>281LC000028</Id>
+	                    <Price>3612.00</Price>
+	                </Fare>
+	                <Fare id="EXECSUN">
+	                    <Id>281EC000028</Id>
+	                    <Price>4695.60</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC2">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>20 Flight Credits - From Calgary, Edmonton and Vancouver</Desc>
+	                <Fare id="TGP">
+	                    <Id>279PC0000320</Id>
+	                    <Price>4956.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>279LC0000320</Id>
+	                    <Price>7308.00</Price>
+	                </Fare>
+	                <Fare id="EXECSUN">
+	                    <Id>279EC0000320</Id>
+	                    <Price>9513.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC2">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>20 Flight Credits - From Western Canada</Desc>
+	                <Fare id="TGP">
+	                    <Id>281PC0000320</Id>
+	                    <Price>6888.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>281LC0000320</Id>
+	                    <Price>9030.00</Price>
+	                </Fare>
+	                <Fare id="EXECSUN">
+	                    <Id>281EC0000320</Id>
+	                    <Price>11739.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="FLORIDA">
+	        <Desc>Florida</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>8 Flight Credits - From Montreal, Ottawa and Toronto</Desc>
+	                <Fare id="TGP">
+	                    <Id>275PC000028</Id>
+	                    <Price>2562.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>275LC000028</Id>
+	                    <Price>4326.00</Price>
+	                </Fare>
+	                <Fare id="EXEC">
+	                    <Id>275EC000028</Id>
+	                    <Price>5460.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>8 Flight Credits - From Eastern Canada</Desc>
+	                <Fare id="TGP">
+	                    <Id>277PC000028</Id>
+	                    <Price>3351.60</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>277LC000028</Id>
+	                    <Price>5392.80</Price>
+	                </Fare>
+	                <Fare id="EXEC">
+	                    <Id>277EC000028</Id>
+	                    <Price>7140.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>8 Flight Credits - From Calgary, Edmonton and Vancouver</Desc>
+	                <Fare id="TGP">
+	                    <Id>293PC000028</Id>
+	                    <Price>3267.60</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>293LC000028</Id>
+	                    <Price>5208.00</Price>
+	                </Fare>
+	                <Fare id="EXEC">
+	                    <Id>293EC000028</Id>
+	                    <Price>6930.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC2">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>20 Flight Credits - From Montreal, Ottawa and Toronto</Desc>
+	                <Fare id="TGP">
+	                    <Id>275PC0000320</Id>
+	                    <Price>6405.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>275LC0000320</Id>
+	                    <Price>10815.00</Price>
+	                </Fare>
+	                <Fare id="EXEC">
+	                    <Id>275EC0000320</Id>
+	                    <Price>13650.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC2">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>20 Flight Credits - From Eastern Canada</Desc>
+	                <Fare id="TGP">
+	                    <Id>277PC0000320</Id>
+	                    <Price>8379.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>277LC0000320</Id>
+	                    <Price>13482.00</Price>
+	                </Fare>
+	                <Fare id="EXEC">
+	                    <Id>277EC0000320</Id>
+	                    <Price>17850.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC2">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>20 Flight Credits - From Calgary, Edmonton and Vancouver</Desc>
+	                <Fare id="TGP">
+	                    <Id>293PC0000320</Id>
+	                    <Price>8169.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>293LC0000320</Id>
+	                    <Price>13020.00</Price>
+	                </Fare>
+	                <Fare id="EXEC">
+	                    <Id>293EC0000320</Id>
+	                    <Price>17325.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="FLORIDAP">
+	        <Desc>Florida Plus</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>8 Flight Credits - From Montreal, Ottawa and Toronto</Desc>
+	                <Fare id="TGP">
+	                    <Id>276PC000028</Id>
+	                    <Price>2982.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>276LC000028</Id>
+	                    <Price>5216.40</Price>
+	                </Fare>
+	                <Fare id="EXEC">
+	                    <Id>276EC000028</Id>
+	                    <Price>6930.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>8 Flight Credits - From Eastern Canada</Desc>
+	                <Fare id="TGP">
+	                    <Id>278PC000028</Id>
+	                    <Price>3838.80</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>278LC000028</Id>
+	                    <Price>6115.20</Price>
+	                </Fare>
+	                <Fare id="EXEC">
+	                    <Id>278EC000028</Id>
+	                    <Price>7770.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>8 Flight Credits - From Calgary, Edmonton and Vancouver</Desc>
+	                <Fare id="TGP">
+	                    <Id>294PC000028</Id>
+	                    <Price>3830.40</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>294LC000028</Id>
+	                    <Price>6610.80</Price>
+	                </Fare>
+	                <Fare id="EXEC">
+	                    <Id>294EC000028</Id>
+	                    <Price>9584.40</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC2">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>20 Flight Credits - From Montreal, Ottawa and Toronto</Desc>
+	                <Fare id="TGP">
+	                    <Id>276PC0000320</Id>
+	                    <Price>7455.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>276LC0000320</Id>
+	                    <Price>13041.00</Price>
+	                </Fare>
+	                <Fare id="EXEC">
+	                    <Id>276EC0000320</Id>
+	                    <Price>17325.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC2">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>20 Flight Credits - From Eastern Canada</Desc>
+	                <Fare id="TGP">
+	                    <Id>278PC0000320</Id>
+	                    <Price>9597.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>278LC0000320</Id>
+	                    <Price>15288.00</Price>
+	                </Fare>
+	                <Fare id="EXEC">
+	                    <Id>278EC0000320</Id>
+	                    <Price>19425.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC2">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>20 Flight Credits - From Calgary, Edmonton and Vancouver</Desc>
+	                <Fare id="TGP">
+	                    <Id>294PC0000320</Id>
+	                    <Price>9576.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>294LC0000320</Id>
+	                    <Price>16527.00</Price>
+	                </Fare>
+	                <Fare id="EXEC">
+	                    <Id>294EC0000320</Id>
+	                    <Price>23961.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="HAWAII">
+	        <Desc>Hawaii</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>8 Flight Credits - From Calgary, Edmonton and Vancouver</Desc>
+	                <Fare id="TGP">
+	                    <Id>280PC000028</Id>
+	                    <Price>3267.60</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>280LC000028</Id>
+	                    <Price>4788.00</Price>
+	                </Fare>
+	                <Fare id="EXECSUN">
+	                    <Id>280EC000028</Id>
+	                    <Price>6703.20</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>8 Flight Credits - From Western Canada</Desc>
+	                <Fare id="TGP">
+	                    <Id>282PC000028</Id>
+	                    <Price>3990.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>282LC000028</Id>
+	                    <Price>5132.40</Price>
+	                </Fare>
+	                <Fare id="EXECSUN">
+	                    <Id>282EC000028</Id>
+	                    <Price>7190.40</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC2">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>20 Flight Credits - From Calgary, Edmonton and Vancouver</Desc>
+	                <Fare id="TGP">
+	                    <Id>280PC0000320</Id>
+	                    <Price>8169.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>280LC0000320</Id>
+	                    <Price>11970.00</Price>
+	                </Fare>
+	                <Fare id="EXECSUN">
+	                    <Id>280EC0000320</Id>
+	                    <Price>16758.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	        <Group id="OC2">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>20 Flight Credits - From Western Canada</Desc>
+	                <Fare id="TGP">
+	                    <Id>282PC0000320</Id>
+	                    <Price>9975.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>282LC0000320</Id>
+	                    <Price>12831.00</Price>
+	                </Fare>
+	                <Fare id="EXECSUN">
+	                    <Id>282EC0000320</Id>
+	                    <Price>17976.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	</Family>
+	<Family id="INTLSP">
+	    <Pass id="SOUTHAMWEST">
+	        <Desc>South America - Western Canada</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>6 Flight Credits</Desc>
+	                <Fare id="TGP">
+	                    <Id>270PC000016</Id>
+	                    <Price>5700.00</Price>
+	                </Fare>
+	                <Fare id="EXEC">
+	                    <Id>270EC000016</Id>
+	                    <Price>23400.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="SOUTHAMEAST">
+	        <Desc>South America - Eastern Canada</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>6 Flight Credits</Desc>
+	                <Fare id="TGP">
+	                    <Id>269PC000016</Id>
+	                    <Price>4680.00</Price>
+	                </Fare>
+	                <Fare id="EXEC">
+	                    <Id>269EC000016</Id>
+	                    <Price>21000.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="EASTERNCAN">
+	        <Desc>Europe Pass - Eastern Canada</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>6 Flight Credits</Desc>
+	                <Fare id="EXECLOW">
+	                    <Id>251EC000016</Id>
+	                    <Price>16590.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>251LC000016</Id>
+	                    <Price>7980.00</Price>
+	                </Fare>
+	                <Fare id="ECOEUR">
+	                    <Id>251PC000016</Id>
+	                    <Price>4194.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="WESTERNCAN">
+	        <Desc>Europe Pass - Western Canada</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>6 Flight Credits</Desc>
+	                <Fare id="EXECLOW">
+	                    <Id>252EC000016</Id>
+	                    <Price>18678.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>252LC000016</Id>
+	                    <Price>8820.00</Price>
+	                </Fare>
+	                <Fare id="ECOEUR">
+	                    <Id>252PC000016</Id>
+	                    <Price>4794.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="231TC000016">
+	        <Desc>Eastern Canada to Asia</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>6 Flight Credits</Desc>
+	                <Fare id="ECOHKG">
+	                    <Id>231TC000016</Id>
+	                    <Price>5898.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="232TC000016">
+	        <Desc>Western Canada to Asia</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>6 Flight Credits</Desc>
+	                <Fare id="ECOHKG">
+	                    <Id>232TC000016</Id>
+	                    <Price>5298.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	</Family>
+	<Family id="INTLMP">
+	    <Pass id="SOUTHAMWEST">
+	        <Desc>South America - Western Canada</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>8 Flight Credits</Desc>
+	                <Fare id="TGP">
+	                    <Id>270PC000028</Id>
+	                    <Price>7600.00</Price>
+	                </Fare>
+	                <Fare id="EXEC">
+	                    <Id>270EC000028</Id>
+	                    <Price>31200.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="SOUTHAMEAST">
+	        <Desc>South America - Eastern Canada</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>8 Flight Credits</Desc>
+	                <Fare id="TGP">
+	                    <Id>269PC000028</Id>
+	                    <Price>6240.00</Price>
+	                </Fare>
+	                <Fare id="EXEC">
+	                    <Id>269EC000028</Id>
+	                    <Price>28000.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="EASTERNCAN">
+	        <Desc>Europe Pass - Eastern Canada</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>8 Flight Credits</Desc>
+	                <Fare id="EXECLOW">
+	                    <Id>251EC000028</Id>
+	                    <Price>22120.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>251LC000028</Id>
+	                    <Price>10640.00</Price>
+	                </Fare>
+	                <Fare id="ECOEUR">
+	                    <Id>251PC000028</Id>
+	                    <Price>5592.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="WESTERNCAN">
+	        <Desc>Europe Pass - Western Canada</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>8 Flight Credits</Desc>
+	                <Fare id="EXECLOW">
+	                    <Id>252EC000028</Id>
+	                    <Price>24904.00</Price>
+	                </Fare>
+	                <Fare id="LAT">
+	                    <Id>252LC000028</Id>
+	                    <Price>11760.00</Price>
+	                </Fare>
+	                <Fare id="ECOEUR">
+	                    <Id>252PC000028</Id>
+	                    <Price>6392.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	</Family>
+	<Family id="INTLSME">
+	    <Pass id="HKGCHNE">
+	        <Desc>Eastern Canada to Asia</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="ECOHKG">
+	                    <Id>331PC0000130</Id>
+	                    <Price>28050.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	    <Pass id="HKGCHNW">
+	        <Desc>Western Canada to Asia</Desc>
+	        <Group id="OC">
+	            <Type>CRD</Type>
+	            <Option>
+	                <Desc>30 Flight credits for  8 travellers</Desc>
+	                <Fare id="ECOHKG">
+	                    <Id>332PC0000130</Id>
+	                    <Price>25200.00</Price>
+	                </Fare>
+	            </Option>
+	        </Group>
+	    </Pass>
+	</Family>
+<RC>0</RC>
+</FPProductsResponse>

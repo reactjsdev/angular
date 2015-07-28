@@ -1,0 +1,151 @@
+
+<!doctype html>
+<html ng-app="app">
+<head>
+	<meta charset="utf-8" />
+
+	<title>
+		Flightpass
+	</title>
+	<link rel="stylesheet" type="text/css" href="styles/flightpass.css">
+	<link rel="stylesheet" type="text/css" href="styles/prism.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="scripts/vendor/xml2json.js"></script>
+	<script type="text/javascript" src="scripts/vendor/jquery-2.1.0.min.js"></script>
+	<script type="text/javascript" src="scripts/vendor/angular-v1.2.28.js" type="text/javascript"></script>
+	<script type="text/javascript" src="scripts/app.js"></script>
+	<script type="text/javascript" src="scripts/controllers/mockdata.js"></script>
+	<script type="text/javascript" src="scripts/services/services.js"></script>
+	<script type="text/javascript" src="scripts/vendor/prism.js"></script>
+
+	
+	<script type="text/javascript" src="scripts/controllers/main.js"></script>
+	
+</head>
+<body ng-controller="AppController">
+
+	<!--<ul>
+		<li ng-repeat="passes in passes track by passes.uid"> {{ passes.pass}} </li>
+	</ul>-->
+	<h2>Dynamically grabbing key value pairs from an xml file 5 dimensions deep and populating a drop down select</h2>
+	
+	<select-option selectdata="dataobj"></select-option>
+	<div class="code-main">
+	<pre><code class="language-css">
+'use strict';
+
+		app.controller(
+			'AppController',
+			function( $scope, $rootScope, DataSource ) {
+
+				var setData = function(result){
+
+					var data = result.FPProductsResponse.Family;
+
+					data.shift();
+					
+					$rootScope.data = data;
+
+					var PASSES = [];
+					
+					jQuery.each(data, function( key, val ) {
+						
+						if(!val.Pass.hasOwnProperty('Desc')){
+
+							var Desc = val;
+							
+							for(var prop in Desc){
+								if(prop == '_id'){
+									var obj1 = Desc.Pass;
+									
+									for(var key1 in obj1){
+
+										if(PASSES.indexOf(obj1[key1]._id) == -1){
+											PASSES.push(obj1[key1]._id);
+										}
+										
+									}
+								}
+							}
+						} else {
+							
+								var obj2 = val;
+									
+								for(var key3 in obj2){
+									if(key3 == 'Pass'){
+										var obj3 = obj2.Pass;
+										
+										for(var key4 in obj3) {
+											if(PASSES.indexOf(obj3._id) == -1){
+												
+												PASSES.push(obj3._id);
+											}
+										}
+									}
+								}
+							
+						}
+						
+						$rootScope.PASSES = PASSES;
+					})
+
+
+
+					$rootScope.passes = build( $rootScope.PASSES );
+					
+					function build( passes ) {
+						var object2 = [];
+						for ( var i = 0 ; i < passes.length ; i++ ) {
+
+							var object = {};
+							object['pass'] = passes[i];
+							object['uid'] = i;
+
+							object2.push(object);
+
+
+
+						}
+
+						$scope.dataobj = object2;
+
+
+						return( object2 );
+
+					}
+
+
+
+				}
+
+				
+				DataSource.get(setData);
+
+
+				
+
+			}
+		).directive('selectOption', function(){
+		    return {
+		      restrict: 'E',
+		     
+		      replace: true,
+		      transclude: false,
+		      scope: { arrayobj:'=selectdata'},
+		     
+		      template: '&#60;select>&#60;option ng-repeat="option in arrayobj">' +
+		                '{{ option.pass }}' +
+			            '&#60;/option>&#60;/select>',
+		      link: function(scope, element, attrs) {
+		      
+		       
+		      }
+		    }
+		  });
+
+	</code></pre>
+	</div>
+	<div ng-controller="controllerTwo"></div>
+
+</body>
+</html>
